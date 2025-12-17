@@ -1,6 +1,11 @@
 .header  {
+  display:flex;
   font-family: monospace;
   background: papayawhip;
+  height:75px;
+  width:auto;
+  align-items:center;
+  justify-content:center;
 }
 
 .logo {
@@ -9,11 +14,18 @@
   color: tomato;
   background: white;
   padding: 4px 32px;
+  margin:auto;
+  font-family:'Courier New', Courier, monospace;
 }
 
 ul {
+  display:flex;
   /* this removes the dots on the list items*/
   list-style-type: none;
+  gap:10px;
+  padding:5px;
+  font-family:'Times New Roman', Times, serif;
+  
 }
 
 a {
