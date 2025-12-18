@@ -2,6 +2,7 @@
 
 html, body {
   height: 100%;
+  text-align:center;
 }
 
 body {
@@ -66,4 +67,41 @@ button.cancel {
   background: white;
   border: 1px solid #ddd;
   color: royalblue;
+}
+
+/*  Solution   */
+
+.top-container{
+  display:flex;
+  margin:10px;
+  gap:16px;
+  font-weight:bolder;
+  font-size:24px;
+
+}
+.close-button{
+  margin-left:auto;
+  padding:10px
+}
+.text{
+  display:flex;
+  margin-left:65px;
+  margin-right:5px;
+  max-width:450px;
+  text-align:left;
+}
+.modal{
+  display:flex;
+  flex-direction:column
+}
+
+button{
+  max-width:fit-content;
+}
+.bottom{
+  display:flex;
+  gap: 10px;
+  margin-left:65px;
+  margin-top:15px;
+  margin-bottom:15px;
 }
