@@ -71,17 +71,23 @@ button.cancel {
 
 /*  Solution   */
 
+.modal{
+  display:flex;
+  padding:16px;
+}
+
 .top-container{
   display:flex;
-  margin:10px;
   gap:16px;
-  font-weight:bolder;
-  font-size:24px;
+  font-weight:1000;
+  font-size:20px;
 
 }
 .close-button{
+  display:flex;
   margin-left:auto;
-  padding:10px
+  padding:5px;
+
 }
 .text{
   display:flex;
